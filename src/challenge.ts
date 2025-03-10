@@ -14,7 +14,7 @@ function deleteThirdItem(groceries: string[]): string[] {
 // and returns the modified groceries array
 function insertItemAtBeginning(groceries: string[], item: string): string[] {
   // write your code here...
-  groceries.unshift(item);
+  groceries.splice(0, 0, item);
   return groceries;
 }
 
